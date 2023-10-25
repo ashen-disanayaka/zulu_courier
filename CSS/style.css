@@ -1,0 +1,352 @@
+
+
+:root{
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange:#F75D21;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #F8F8F8;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    font-family: 'Metrophobic', sans-serif;
+    font-family: 'Noto Sans Sinhala', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sawarabi Gothic', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Metrophobic', sans-serif;
+  }
+  
+section{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.nav_hover:hover{
+  border-bottom: 2px solid var(--orange);
+  
+}
+
+.container_button{
+   background-color: var(--white);
+   border: 1px solid black;
+   border-radius: 50px;
+   
+   text-align: center;
+   
+   
+}
+.login_button{
+    background-color: var(--white);
+    text-align: center;
+    border-top-left-radius : 50px;
+    border-bottom-left-radius: 50px;
+   
+}
+
+.login_button:hover{
+  background-color: var(--orange);
+ 
+ 
+
+}
+
+.Reg_button{
+    background-color: var(--white);
+    text-align: center;
+    border-top-right-radius : 50px;
+    border-bottom-right-radius: 50px;
+   
+}
+
+.Reg_button:hover{
+    background-color: var(--orange);
+    
+}
+
+.hero-section{
+
+    background-image: url('../img/img/bg.png');
+    background-size: cover; /* Adjust as needed */
+  
+    background-repeat: no-repeat; /* Adjust as needed */
+    color: #030100; /* Text color for contrast */
+    padding: 200px 0; 
+    text-align: start; /* Center align the text */
+    
+  }
+  
+  .hero-section h1 {
+    font-size: 60px;
+     
+  }
+  
+  .hero-section p {
+    font-size: 28px;
+  }
+  .content_hero{
+    margin-top: -50px;
+    margin-left: 60px;
+  }
+  .btn_hero {
+  
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 30px;
+    color: white;
+    
+  }
+  .btn_hero:hover{
+    background-color: var(--gray);
+  }
+
+  .section-2{
+  
+    height: auto;
+    margin: 30px;
+    background-image: url('../img/img/how_dose_work_bg.svg');
+    background-size: cover;  
+    background-repeat: no-repeat;  
+    color: #ffffff; 
+    padding: 20px;
+    text-align: start;  
+  }
+
+  .click{
+    color: var(--orange);
+     
+  }
+
+  .simple_click_img{
+    animation: float 4s ease-in-out infinite; 
+    width: 100vw;
+    height: 80vh;
+    position: relative;
+    transform: translateX(-50%);
+  }
+  /* .simple_click_img{
+    background-image: url('../img/img/simple_click_side_img.svg');
+  
+    height: 60vh;
+    width:60vw;
+  
+  } */
+ /* .card_why_zulu{
+  width: 20vw;
+  height: 40vh;
+  align-items: center;
+  align-content: center;
+ } */
+
+ .Zulu_img{
+  transform: translateX(-50%);
+  animation: float 4s ease-in-out infinite;
+ }
+
+ .section-title{
+  text-align: center;
+  padding-bottom: 40px;
+ }
+ 
+ .services .icon-box{
+  padding:120px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 0 40px 0;
+  background: var(--secondary);
+  /* box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1); */
+  transition: all 0.3s ease-in-out;
+  border-radius: 20px;
+  text-align: center;
+  /* border-bottom: 3px solid #fff; */
+
+ }
+
+ *, ::after, ::before {
+  box-sizing: border-box;
+}
+
+ .services .icon  {
+  font-size: 48px;
+  line-height: 1;
+  margin-bottom: 15px;
+   
+}
+ .services .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+.services .description {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+.services .title a {
+  color: #111;
+}
+a{
+  text-decoration:none;
+}
+
+.card_why{
+  background-color:var(--secondary);
+  border-radius: 20px;
+  border:none;
+}
+.card_why:hover{
+  background-color:var(--orange);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 150px;
+  border-bottom-left-radius: 150px;
+  border-bottom-right-radius: 20px;
+  border:none;
+  
+}
+
+.card-title{
+  color: black;
+  font-weight: 500;
+  margin-top: 30px;
+  font-size: 21px;
+
+}
+.card-title:hover{
+  color:white;
+}
+.shiping_game{
+  color: black;
+  font-weight: 700;
+}
+
+.card_rate{
+  border-radius: 50px;
+  background-color:var(--secondary);
+  border:none;
+}
+
+
+.circular-bg {
+  background-color: var(--orange);  
+  border-radius: 50%;  
+  width: 100px;  
+  height: 100px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circular-bg:hover{
+  background-color: black;  
+}
+
+.section-5{
+ 
+  /* margin-bottom: 100px; */
+  background-image: url('../img/img/rate_sec_bg_dark.svg');
+  background-size: cover;  
+
+  background-repeat: no-repeat;  
+  color: #ffffff; 
+  padding-bottom: 200px;
+  text-align: start;  
+}
+
+.card-title_rate{
+  color: black;
+  font-weight: 500;
+  margin-top: 30px;
+  font-size: 21px;
+}
+
+.chat_button{
+  /* margin-right: 30px;
+  margin-left: 30px; */
+  border-radius: 50px;
+  background-color:transparent;
+  border: 1px solid black;
+}
+.chat_button:hover{
+  background-color: var(--gray);
+  color: var(--white);
+}
+
+.image-container {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.chat_img{
+  animation: float 4s ease-in-out infinite; 
+  width: 100vw;
+  height: 80vh;
+  position: absolute;
+  top: 0;
+  
+  transform: translateX(-50%);
+ 
+
+}
+
+.coverage_img{
+  width: 100vw;
+height: 100vh;
+position: relative;
+}
+
+/* .coverage_img_1{
+  background-image: url('../img/img/coverage_sec_side_img.svg');
+  width: 40vw;
+  height: 100vh;
+  position: relative;
+} */
+/* .section-7{
+  padding-top: -40px;
+  padding-bottom: -30px;
+} */
+.coverage_tital{
+  color:var(--orange);
+  font-weight: 500;
+}
+
+
+/* Footer */
+
+.bg-footer{
+  background-color: black;
+}
+
+
+
+
+
+@keyframes float {
+  0%, 100% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-20px); /* Adjust the float height as needed */
+  }
+}
