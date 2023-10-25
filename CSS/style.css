@@ -62,6 +62,7 @@ section{
 
 .login_button:hover{
   background-color: var(--orange);
+  color: var(--white) !important;
  
  
 
@@ -77,7 +78,7 @@ section{
 
 .Reg_button:hover{
     background-color: var(--orange);
-    
+    color: var(--white) !important;
 }
 
 .hero-section{

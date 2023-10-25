@@ -1,0 +1,50 @@
+.hero-section_careers{
+
+    background-image: url('../img/careers/careers_bg.svg');
+    background-size: cover; /* Adjust as needed */
+  
+    background-repeat: no-repeat; /* Adjust as needed */
+    color: #030100; /* Text color for contrast */
+    padding: 100px 0; 
+    text-align: start; /* Center align the text */
+    
+  }
+
+
+  .card{
+    /* margin-left: 70px !important;
+    margin-right: 70px !important; */
+    border: 1px solid black;
+  }
+
+  .submit_btn{
+    background-color: black;
+    color: white;
+  }
+  .submit_btn:hover{
+    background-color: rgb(181, 57, 5);
+    color: white;
+  }
+
+  .form-check-input:checked{
+    background-color: var(--orange);
+    border-color: var(--orange);
+  }
+
+  .modal-content{
+    background-color: #F87541;
+    color: white;
+  }
+
+  .submit_alt{
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: black;
+    color: white;
+  }
+
+  .submit_alt:hover{
+   
+    background-color: rgb(170, 78, 3);
+    color: white;
+  }
