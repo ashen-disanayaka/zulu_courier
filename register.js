@@ -17,16 +17,25 @@
 //     submitForm(); // Call the submitForm function
 //   });
 
-// Function to handle form submission
-function submitForm(event) {
-    event.preventDefault(); // Prevent the default form submission
-    
-    // You can add form validation here if needed
-    // For a simple example, let's assume the form is valid
+ 
+ 
+  const registrationForm = document.getElementById("registration-form");
 
-    // Show a Bootstrap modal alert with an "OK" button
-    $('#successModal').modal('show');
-  }
+  registrationForm.addEventListener("submit", function (event) {
+      event.preventDefault();
 
-  // Add an event listener to the form submission
-  document.getElementById("driver-registration-form").addEventListener("submit", submitForm);
+      const password = document.getElementById("password").value;
+      const confirmPassword = document.getElementById("confirmPassword").value;
+
+      if (password !== confirmPassword) {
+          alert("Passwords do not match. Please try again.");
+          return;
+      }
+
+      // Add your additional validation logic here.
+      // You can use the "required" attribute for other fields.
+
+      // If all validations pass, you can submit the form.
+      registrationForm.submit();
+  });
+ 
