@@ -104,6 +104,8 @@ body {
   .content_hero{
     margin-top: -50px;
     margin-left: 10%;
+  
+    
   }
   .btn_hero {
     margin: 3px;
@@ -116,6 +118,22 @@ body {
     border-radius: 30px;
     color: white;
     
+  }
+
+  .btn_hero_quota{
+    margin: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: var(--white);
+    border: 1px solid white;
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+  }
+  .btn_hero_quota:hover{
+    background-color: var(--gray);
+    color: var(--white);
   }
   .btn_hero:hover{
     background-color: var(--gray);

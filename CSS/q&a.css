@@ -1,0 +1,28 @@
+ 
+
+
+.hero-section-q{
+
+    background-image: url('../img/q&a/bg.svg');
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat; /* Adjust as needed */
+    color: #030100; /* Text color for contrast */
+    padding: 100px 0; 
+    text-align: start; /* Center align the text */
+    
+  }
+
+  .card_qa{
+    border: none;
+    background-color: #EFEFEF;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 4px;
+    color: black;
+   
+  }
+
+  .text_h{
+    font-weight: 550;
+    font-size: 17px;
+  }
